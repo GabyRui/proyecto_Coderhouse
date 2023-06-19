@@ -1,0 +1,703 @@
+/* font-family: 'Roboto', sans-serif; */
+/* Index_Home */
+.logo-home{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+header{
+    justify-content: space-between;
+    background-color: rgb(237, 251, 255);
+    width: 1920px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: antiquewhite;
+    padding-left: 60px;
+    height: 260px;
+
+
+}
+
+/* Footer_encuéntranos*/
+
+.encuentranos_div1_footer{
+    padding-top: 2px;
+    
+}
+
+.encuentranos_footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.image_encuentranos_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 14px;
+}
+.texto_encuentranos_footer{
+    padding-left: 70px;
+    position: relative;
+    top: -32px;
+}
+
+/* Footer_escribenos*/
+
+.escribenos_div2_footer{
+    position: relative;
+    right: -460px;
+    top: -120px;
+       
+}
+
+.escribenos_footer{
+    padding: 10px;
+    padding-bottom: 18px;
+}
+.image_escribenos_correo_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.image_escribenos_phone_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.texto_escribenos_correo_footer{
+    padding-left: 80px;
+    position: relative;
+    top: -35px;   
+}
+
+.texto_escribenos_phone_footer{
+    padding-left: 80px;
+    position: relative;
+    top: -30px;
+}
+
+
+
+
+/* Footer_siguenos*/
+
+.siguenos_div3_footer{
+    position: relative;
+    right: -870px;
+    top: -294px;
+
+}
+
+.siguenos_footer{
+    padding-bottom: 20px;
+    padding-left: 10px;   
+}
+
+.image_siguenos_instagram_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.image_siguenos_facebook_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 25px;
+}
+
+.image_siguenos_tiktok_footer{ 
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+
+/* Header */
+
+body{  
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav a, nav img{
+    font-weight: 600;
+    padding-right: 70px;
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+    z-index: 2;
+    
+}
+
+nav{
+    text-align-last: right;
+    display:inline-block;
+    padding-left: 300px;
+    align-content: center;
+
+}
+
+.icon-user{
+
+    width: 30px;
+    height: 30px
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 100% ;
+    height: 100% ;
+    margin-top: 120px;
+}
+ 
+.banner{
+    width:100% ;
+    height: 120vh;
+    background-size: cover; 
+    background-position: 80%;
+    border-radius: 4px;
+    background-image: url(./Imágenes/Home/Home\ banner.jpg);
+
+    }
+
+.text-banner{
+
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.text-banner h1{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 40px;
+    padding-top: 10px;
+}
+
+h1{
+    width: 600px;
+    font-weight: bold;
+
+}
+
+.text-banner h2{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+h2{
+    width: 500px;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+    padding-left: 30px;
+    margin: 50px;
+}
+
+.button{
+    width: 170px ;
+    height: 50px;
+    font-weight: bold;
+    background-color: blueviolet;
+    letter-spacing: 2px;
+    margin-left: 50px ;
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 800px;
+    border: none;
+    cursor: pointer
+
+}
+
+/* Home_franja 2 */
+
+.div_home_franja2_titulo{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.home_franja2_h1{
+    padding-left: 340px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.home_franja2_button{
+    width: 170px ;
+    height: 50px;
+    font-weight: bold;
+    background-color: blueviolet;
+    letter-spacing: 2px;
+    margin-left: 900px ;
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 800px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: -42px;
+    }
+
+#section_franja2_home{
+    width: 1920px;
+    height: 630px;
+}
+
+#div_franja2_home_contenedor{
+    position: relative;
+    left: -10px;
+}
+
+.div_home_franja2_especialistas{
+    position: relative;
+    left: -70px;
+}
+
+.div_home_franja2_especialistas1{
+    position: relative;
+    left: 230px;
+    top: -450px;
+}
+
+.div_home_franja2_especialistas2{
+    position: relative;
+    left: 550px;
+    top: -900px;
+}
+
+.div_home_franja2_especialistas3{
+    position: relative;
+    left: 860px;
+    top: -1347px;
+}
+
+.home_franja2_imagen_equipo{
+    width: 180px;
+    height: 180px;
+    padding-left: 160px;
+    position: relative;
+    border-radius: 30px;
+    top: -27px;
+}
+
+.home_franja2_parrafo_equipo{
+    width: 250px;
+    padding-left: 120px;
+    text-align: left;
+    text-align: justify;
+    
+}
+
+
+/* Home_franja 3 */
+
+#section_contenedor_franja3_home{
+    background-color: rgb(248, 248, 235);
+    width: 2000px;
+    height: 600px;
+
+}
+
+#div_home_franja3_titulo{
+    position: relative;
+    top: 10px;
+    left: 500px;
+    padding-bottom: 30px;
+}
+
+
+
+.home_franja3_imagen_pasos, .home_franja3_imagen_pasos1,.home_franja3_imagen_pasos2{
+    width: 180px;
+    height: 180px;
+    padding-left: 160px;
+    position: relative;
+    border-radius: 30px;
+    top: -20px;
+    align-items: center;
+}
+
+.home_franja3_parrafo_pasos{
+    width: 250px;
+    padding-left: 120px;
+    text-align: left;
+    text-align: justify;
+}
+
+
+.div_home_franja3_pasos2{
+    position: relative;
+    left: 350px;
+    top: -490px;
+    display: inline;
+}
+
+.div_home_franja3_pasos3{
+    position: relative;
+    left: 700px;
+    top: -980px;
+    display: inline;
+}
+
+
+.home_franja3_parrafo_pasos{
+    width: 250px;
+    padding-left: 120px;
+    margin-top: 0px
+}
+
+
+
+/* Equipo_franja 1 */
+
+#main_equipo{
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+    
+    }
+    
+    #container_texto_equipo h1{
+        position: relative;
+        left: 410px;
+        padding-left: 80px;
+    }
+    
+    #container_equipo{
+        background-color: rgb(255, 250, 244);
+        background-size: cover;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+/* Equipo_franja 2 */
+
+#equipo_franja2_h1_fundadores{
+    padding-left: 90px;
+}
+
+
+#div-bloque-texto-fundador1{
+
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+    padding-left:30px;
+    position: relative;
+    top: -50px;
+    }
+#imagen-fundador1{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+#div_equipo_franja2{
+    padding-left: 80px;
+    }
+
+/* Equipo_franja 3 */
+
+
+#section_equipo_franja3{
+    width: 80px;
+    height: 800px;
+}
+
+
+.imagen_equipo_franja3{
+    width: 1600px;
+    height: 800px;
+    opacity: 0.28;
+}
+
+.texto_franja3_equipo_h1{
+font-weight: bolder;
+font-size: 40px;
+text-align: center;
+align-items: center;
+padding-left: 250px;
+position: relative;
+top: -400px;
+}
+
+/* Servicios */
+
+#main_servicios{
+margin-top: 120px;
+width: 100%;
+height: 100%;
+}
+
+#container_texto_servicios h1{
+    text-align: left;
+    padding-left: 80px;
+}
+
+#container_texto_servicios h2{
+
+    text-align: left;
+    padding-left: 30px ;
+    margin-top: 30px;
+}
+
+#container_servicios{
+    background-color: rgb(255, 250, 244);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* Servicios - franja 2 */
+
+section{
+    padding-top: 40px;
+}
+
+#servicios-todos{
+padding-left: 80px;
+
+}
+
+#imagen-servicios-cuidado-full-time{
+width: 260px;
+height: 200px;
+border-radius: 10px;
+}
+
+#servicios-todos h3{
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#lista-servicios-full-time{
+padding-top: 13px;
+padding-left: 14px;
+align-content: center;
+}
+
+#button-servicios{
+    margin-top: 20px;
+    width: 160px ;
+    height: 45px;
+    font-weight: bold;
+    background-color: blueviolet;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer
+
+}
+
+#bloque-texto-cuidado-full-time{
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+    
+
+}
+
+#imagen-servicios-cuidado-part-time{
+    width: 260px;
+    height: 230px;
+    border-radius: 20px;
+    }
+
+
+#bloque-texto-cuidado-part-time{
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+    }
+
+/* Testimonios - franja 1 */
+
+    #main_testimonios{
+        margin-top: 120px;
+        width: 100%;
+        height: 100%;
+        }
+        
+    #container_texto_testimonios h1{
+        text-align: left;
+        padding-left: 100px;
+        width: 800px;
+        }
+        
+    #container_testimonios{
+        background-color: rgb(255, 250, 244);
+        background-size: cover;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+
+/* Testimonios - franja 2 */
+
+    #titulo_franja2_testimonios{
+        padding-left: 110px;
+        padding-top: 20px;
+    }
+
+    #bajada_franja2_testimonios{
+        padding-left: 60px;
+        position: relative;
+        top: -30px;
+    }
+
+    #formulario_franja2_testimonios{
+        position: relative;
+        left: 500px;
+        top: -190px;
+    }
+
+
+/* Testimonios - franja 3 */
+
+    #leertestimonios_franja3_h1{
+        font-weight: bolder;
+        padding-left: 118px;
+        position: relative;
+        top: -120px;  
+        padding-bottom: 20px;
+    }
+
+    #testimonio1{
+        width: 100px;
+        height: 100px;
+
+        
+    }
+
+    .imagen_testimonio1{
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        padding-left: 110px;
+        position: relative;
+        top: -125px;
+        
+    }
+    
+    .nombre_titulo_testimonio1{
+        padding-bottom: 10px;
+        position: relative;
+        top: -380px;
+        left: 260px;      
+    }
+
+    .parrafo_testimonio1{
+        position: relative;
+        top: -420px;
+        left: 345px;
+        width: 200px;  
+        text-align: justify;
+    }
+
+    #testimonio2{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: -140px;
+        padding-bottom: 20px;
+    }
+
+#div2_franja3{
+
+    position: relative;
+    left: 560px;
+    top: -220px;
+
+
+}
+
+.button_ver_testimonios{
+    width: 200px ;
+    height: 50px;
+    font-weight: bold;
+    background-color: blueviolet;
+    letter-spacing: 2px;
+    margin-left: 550px ;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 18px;
+    border-radius: 800px;
+    border: none;
+    cursor: pointer;
+    align-content: center;
+    }
+
+#section_franja3_leertestimonios{
+    align-content: center;
+}
+
+/* Contacto - franja 1 */
+
+    #contacto-franja1-imagen{
+        width: 340px;
+        height: 340px;
+        padding-top: 150px;
+        padding-left: 450px;
+    }
+
+    #texto-contacto-franja1{
+        text-align: center;
+        transform: translateX(50%);
+        letter-spacing: 1px;   
+    }
+
+/* Contacto - franja 2 */
+    .contacto-franja2-formulario{
+        padding-left: 300px;
+        
+        
+    }
+        
+
+
+/* Contacto - franja 3 */
+
+    #texto-contacto-franja3{
+        font-weight: 700px;
+        width: 800px;
+        transform: translateX(25%);
+        
+    }
+    
