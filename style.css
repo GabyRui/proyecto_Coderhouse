@@ -1,25 +1,106 @@
 /* font-family: 'Roboto', sans-serif; */
 /* Index_Home */
-.logo-home{
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 50px;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0;
+
 }
 
+/* Header*/
+
+
 header{
-    justify-content: space-between;
     background-color: rgb(237, 251, 255);
-    width: 1920px;
-    height: 100px;
-    align-items: center;
+    display: flex;
     padding: 10px;
     position: fixed;
     z-index: 2;
-    top: 0;
-}
+    top: 0;}
+
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    
+    }
+    
+    nav a, nav img{
+        font-weight: 600;
+        padding-right: 70px;
+        position: relative;
+        z-index: 2;
+        
+    }
+    
+    nav{
+
+        display:grid;
+        grid-template-columns: 5fr 0.5fr 0.5fr 0.5fr 0.5fr 2.5fr; 
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "logo equipo servicios testimonio contacto icon-user ";
+        justify-items: center;
+        align-items: center;
+    }
+
+
+    .logo-home{
+        grid-area: logo;
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+
+    .nav-equipo{
+        grid-area: equipo;
+    }
+
+    .nav-servicios{
+        grid-area: servicios;
+    }
+
+    .nav-testimonio{
+        grid-area: testimonio;
+    }
+
+    .nav-contacto{
+        grid-area: contacto;
+    }
+
+
+    .icon-user{
+        grid-area: icon-user;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        align-content: center;
+        cursor: pointer;
+    }
+
+    nav a:hover{
+        color: blueviolet;
+    }
+
+    nav a::visited{
+
+    }
+
+    @media (min-width: 480px) and (max-width: 992px) {
+        header nav{
+            grid-template-columns: ;
+
+        }
+    }
+
+
 
 /* Footer */
 
@@ -126,67 +207,21 @@ footer{
 }
 
 
-/* Header */
-
-body{  
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-
-}
-
-nav a, nav img{
-    font-weight: 600;
-    padding-right: 70px;
-    display: inline-block;
-    position: relative;
-    bottom: 45px;
-    z-index: 2;
-    
-}
-
-nav{
-    text-align-last: right;
-    display:inline-block;
-    padding-left: 300px;
-    align-content: center;
-
-}
-
-.icon-user{
-
-    width: 30px;
-    height: 30px
-}
-
-nav a:hover{
-    color: blueviolet;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-
-}
+/* Franja1_Home */
 
 .container{
     width: 100% ;
     height: 100% ;
-    margin-top: 120px;
+    margin-top: 100px;
 }
  
 .banner{
     width:100% ;
     height: 120vh;
     background-size: cover; 
-    background-position: 80%;
+    background-position: 100%;
     border-radius: 4px;
-    background-image: url(./Imágenes/Home/Home\ banner.jpg);
+    background-image: url(./images/Home/Home\ banner.jpg);
 
     }
 
@@ -248,7 +283,7 @@ h2{
 
 .home_franja2_h1{
     padding-left: 340px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 25px;
 }
 
@@ -270,12 +305,11 @@ h2{
     }
 
 #section_franja2_home{
-    width: 1920px;
-    height: 630px;
+   height: 600px;
 }
 
 #div_franja2_home_contenedor{
-    position: relative;
+    
     left: -10px;
 }
 
@@ -322,10 +356,14 @@ h2{
 
 /* Home_franja 3 */
 
-#section_contenedor_franja3_home{
-    background-color: rgb(248, 248, 235);
-    width: 2000px;
-    height: 600px;
+#section_contenedor_franja3{
+    background-color: cornsilk;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    min-height: 200px;
+    padding: 0;
+    margin: 0;
+
 
 }
 
@@ -333,10 +371,12 @@ h2{
     position: relative;
     top: 10px;
     left: 500px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
-
+.home_franja3_h1{
+    padding-top: 70px;
+}
 
 .home_franja3_imagen_pasos, .home_franja3_imagen_pasos1,.home_franja3_imagen_pasos2{
     width: 180px;
@@ -688,7 +728,7 @@ align-content: center;
         padding-left: 300px;
         
         
-    }
+    } 
         
 
 
